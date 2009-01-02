@@ -1,7 +1,7 @@
 <?php
 
 	require_once(TOOLKIT . '/class.datasource.php');
-	require_once(EXTENSIONS . '/asdc/class.asdc.php');
+	require_once(EXTENSIONS . '/asdc/lib/class.asdc.php');
 	
 	Class datasourceBreadcrumb extends Datasource{
 		

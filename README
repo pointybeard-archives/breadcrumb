@@ -13,8 +13,9 @@ and is much easier to traverse with xpath.
 
 [REQUIREMENTS]
 
-- This Extension relies on the "Advanced Symphony Database Connector" (ASDC) library. The latest stable version can
-be grabbed using "git clone git://github.com/pointybeard/asdc.git"
+- This Extension relies on the "Advanced Symphony Database Connector" (ASDC) library. Read more about it 
+  at http://github.com/pointybeard/asdc/tree/master and grab the latest stable version using 
+  "git clone git://github.com/pointybeard/asdc.git". 
 
 
 [INSTALLATION]
