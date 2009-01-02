@@ -34,30 +34,6 @@
 				$result->appendChild(new XMLElement('error', General::sanitize(vsprintf('%d: %s on query "%s"', $db->lastError()))));
 				return $result;
 			}
-
-			
-			/*
-			stdClass Object
-			(
-			    [id] => 82
-			    [parent] => 81
-			    [title] => J.J. Goldberg
-			    [handle] => jj-goldberg
-			    [path] => about/masthead
-			    [params] => 
-			    [data_sources] => breadcrumb
-			    [events] => 
-			    [sortorder] => 13
-			)
-			
-			<breadcrumb>
-				<page path="about">About</page>
-				<page path="about/contact">Contact</page>
-				<page path="about/contact/office">Forward Office</page>
-			</breadcrumb>			
-			
-			*/
-			
 			
 			while($results->length() > 0){
 				
